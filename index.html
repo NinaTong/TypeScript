@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://fb.me/react-15.1.0.js"></script>
+    <script src="https://fb.me/react-dom-15.1.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="app.js?wt"></script>
+
+    <form>
+        <div id="example"></div>
+        <table id="withdraw-list-data-body"></table>
+        <div>Shopping Cart</div>
+        <table id="shoppingCart-list">
+            <tr>
+                <td>product name</td>
+                <td>price</td>
+                <td>quantity</td>
+                <td>total</td>
+                <td><a>remove link</a></td>
+            </tr>
+        </table>
+    </form>
+    <script>
+        window.onload = function () {
+            myFunction();
+        }
+    </script>
+
+</body>
+</html >
